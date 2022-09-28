@@ -10,7 +10,7 @@ export class SomaService {
   somar(numero1: number, numero2: number): number {
   let resultado: number;
 
-  resultado = numero1 + numero2;
+  resultado = (numero1 + numero2);
   return resultado;
   }
 }

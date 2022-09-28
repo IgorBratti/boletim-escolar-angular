@@ -20,6 +20,7 @@ export class SomaComponent implements OnInit {
 
     n1 = parseFloat(numero1);
     n2 = parseFloat(numero2);
+
     this.res = this.SomaService.somar(n1, n2);
   }
   get resultado(): string {
